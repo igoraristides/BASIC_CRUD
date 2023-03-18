@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         xmlns:local="clr-namespace:CRUD_WPF_FORM.Views"
         mc:Ignorable="d"
         Title="ModalWindow" Height="290" Width="352"
@@ -45,8 +46,7 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <TextBox x:Name="phoneTextBox" HorizontalAlignment="Left" Height="21" Margin="12,192,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="314"/>
-
+        <xctk:MaskedTextBox Mask="(99) 00000-0000" x:Name="phoneTextBox" HorizontalAlignment="Left" Height="21" Margin="12,192,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="314"/>
         <Label Content="CADASTRO DE CONTATOS" HorizontalAlignment="Left" Height="40" Margin="42,10,0,0" VerticalAlignment="Top" Width="284" HorizontalContentAlignment="Center"/>
         <Button x:Name="saveButton" Content="Salvar" HorizontalAlignment="Left" Height="20" Margin="13,224,0,0" VerticalAlignment="Top" Width="147" Click="SaveButton_Click" RenderTransformOrigin="0.5,0.5" >
             <Button.RenderTransform>
