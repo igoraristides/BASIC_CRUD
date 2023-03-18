@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\delete.png" />
+    <None Remove="Resources\edit.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="Resources\Styles\NoBorderAndHoverButton.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Icons\delete.png" />
+    <Resource Include="Resources\Icons\edit.jpg" />
+    <Resource Include="Resources\Styles\NoBorderAndHoverButton.xaml" />
+  </ItemGroup>
+
+</Project>
