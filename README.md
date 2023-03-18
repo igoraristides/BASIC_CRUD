@@ -31,3 +31,4 @@ OBS: Vale ressaltar que há a necessidade deter essa IDE para não ter problemas
 - Já foi deixado tudo conectado para necessidade de apenas executar o projeto CRUD_WPF_FORM;
 - Caso por algum  motivo de problema em relação a Firewall do ip utilizado com o acesso da azure, me comunique.
 - Caso decida por rodar tudo locamente, aqui está um cópia da base em formato bacpac para importação https://1drv.ms/u/s!Ak09YU0NDHQthLsxtxSdTEyWf61abw?e=80h1uW
+- O Id foi trabalhado no código mas não mostrado para o usuário no front WPF, dado que por motivos dee segurnaça não se é recomendado a visualização do identificados.
